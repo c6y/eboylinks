@@ -35,15 +35,11 @@ body {
 }
 
 .container {
-	/*margin-right: auto;
-	margin-left: auto;*/
 	text-align: left;
-	/*background-color: black;*/
 	padding: 2.5rem;
 	min-height: 100%;
 	max-width: 24rem;
 	min-width: 16rem;
-	/*width: auto;*/
 }
 
 .boxone {
@@ -75,23 +71,15 @@ h1 {
 	margin: 1rem 0;
 }
 
-/*h3:hover {
-	background-color: yellow;
-	color: inherit;
-}*/
-
 .cardsbox {
-	display: flex; /* or inline-flex */
+	display: flex;
 	flex-wrap: wrap;
 	margin: 0;
-	padding: 1rem 0;
 }
 
 .card {
-	/*flex-basis: 20%;*/
-	/*margin: 12px;*/
 	margin: 0.5rem 1rem;
-	/*flex-shrink: 1;*/
+	border-left: 1px solid white;
 }
 
 li {
@@ -100,13 +88,9 @@ li {
 
 ul {
 	list-style-position: inside;
-	list-style-type: square;
+	list-style-type: none;
 	margin: 0;
-	padding-left: 0;
-}
-
-.muted {
-	color: rgba(255, 255, 255, 0.25);
+	padding-left: 1rem;
 }
 
 /* smaller devices */
@@ -136,15 +120,14 @@ ul {
 		.boxtwo {
 			margin: 1.5rem 0 0 0;
 		}
-		.cardsbox {
-			padding: 0.5rem 0;
-		}
 		.card {
 			margin: 0.5rem 2rem 0.5rem 0;
 			font-size: 0.9rem;
 		}
+		.label {
+			display: none;
+		}
 }
-
 
 /* Debug */
 .container,
