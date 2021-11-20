@@ -1,4 +1,8 @@
-/* Links */
+@font-face {
+  font-family: Fontix;
+  src: url(Fontix-Regular.ttf);
+}
+
 a,
 a:focus,
 a:hover {
@@ -11,7 +15,7 @@ body {
   height: 100%;
   color: #f97070;
   background-color: #ff2;
-  font-family: Fontix;
+  font-family: Fontix, sans-serif;
   font-size: 16pt;
   display: flex;
   justify-content: center;
